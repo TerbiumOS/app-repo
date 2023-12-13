@@ -1,7 +1,7 @@
 [
             {
                 "name": "Ruffle",
-                "icon": "/assets/img/ruffle.svg",
+                "icon": "https://i.imgur.com/krc39TU.png",
                 "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
                 "authors": ["Ruffle Team"],
                 "wmArgs": {
@@ -9,7 +9,7 @@
                         "text": "Ruffle",
                         "weight": 600
                     },
-                    "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.ruffle/ruffle.svg",
+                    "icon": "https://i.imgur.com/krc39TU.png",
                     "src": "/apps/ruffle/index.html",
                     "size": {
                         "width": 600,
@@ -22,7 +22,7 @@
             },
             {
                 "name": "Youtube",
-                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.youtube/icon.png",
+                "icon": "https://i.imgur.com/o60lUfq.png",
                 "description": "Share your videos with friends, family, and the world.",
                 "authors": ["Google"],
                 "images": [
@@ -33,7 +33,7 @@
                         "text": "Youtube",
                         "weight": 600
                     },
-                    "icon": "/assets/img/youtube.png",
+                    "icon": "https://i.imgur.com/o60lUfq.png",
                     "src": "https://youtube.com",
                     "size": {
                         "width": 600,
@@ -46,7 +46,7 @@
             },
             {
                 "name": "X",
-                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.x/icon.svg",
+                "icon": "https://i.imgur.com/XM6Y94y.png",
                 "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
                 "authors": ["Twitter"],
                 "wmArgs": {
@@ -54,7 +54,7 @@
                         "text": "X",
                         "weight": 600
                     },
-                    "icon": "/assets/img/x.svg",
+                    "icon": "https://i.imgur.com/XM6Y94y.png",
                     "src": "https://twitter.com",
                     "size": {
                         "width": 600,
@@ -67,7 +67,7 @@
             },
             {
                 "name": "Spotify",
-                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.spotify/icon.png",
+                "icon": "https://i.imgur.com/NNkWlYh.png",
                 "description": "Spotify is a digital music service that gives you access to millions of songs.",
                 "authors": ["Spotify"],
                 "wmArgs": {
@@ -75,7 +75,7 @@
                         "text": "Spotify",
                         "weight": 600
                     },
-                    "icon": "/assets/img/spotify.png",
+                    "icon": "https://i.imgur.com/NNkWlYh.png",
                     "src": "https://open.spotify.com",
                     "size": {
                         "width": 600,
@@ -88,7 +88,7 @@
             },
             {
                 "name": "Discord",
-                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.discord/icon.svg",
+                "icon": "https://i.imgur.com/ZQ2tCy1.png",
                 "description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
                 "authors": ["Discord"],
                 "images": [
@@ -103,7 +103,7 @@
                         "text": "Discord",
                         "weight": 600
                     },
-                    "icon": "/assets/img/discord.svg",
+                    "icon": "https://i.imgur.com/ZQ2tCy1.png",
                     "src": "https://discord.com/app",
                     "size": {
                         "width": 600,

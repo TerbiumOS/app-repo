@@ -113,6 +113,48 @@
                     "resizable": true,
                     "app_id": "com.tb.discord"
                 }
+            },
+            {
+                "name": "Terbium IDE",
+                "icon": "/assets/img/ide.svg",
+                "description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
+                "authors": ["TerbiumOS Project"],
+                "wmArgs": {
+                    "title": {
+                        "text": "Terbium IDE",
+                        "weight": 600
+                    },
+                    "icon": "/assets/img/ide.svg",
+                    "src": "/apps/ide/index.html",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": false,
+                    "resizable": true,
+                    "app_id": "com.tb.ide"
+                }
+            },
+            {
+                "name": "Game Center",
+                "icon": "https://v2.sodium-5h8.pages.dev/assets/img/games.svg",
+                "description": "Play various Games and More right in your browser!",
+                "authors": ["XSTARS"],
+                "wmArgs": {
+                    "title": {
+                        "text": "Game Center",
+                        "weight": 600
+                    },
+                    "icon": "https://v2.sodium-5h8.pages.dev/assets/img/games.svg",
+                    "src": "https://notplayingallday383.github.io/app-test/gamecntr/index.html",
+                    "size": {
+                        "width": 800,
+                        "height": 650
+                    },
+                    "single": true,
+                    "resizable": true,
+                    "app_id": "com.tb.games"
+                }
             }
         ]
 

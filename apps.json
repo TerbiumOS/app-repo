@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Ruffle",
+        "icon": "/assets/com.tb.ruffle/icon.svg",
+        "description": "The Ruffle app for Terbium",
+        "wmArgs": {
+            "title": {
+                "text": "Ruffle",
+                "weight": 600
+            },
+            "icon": "/assets/com.tb.ruffle/icon.svg",
+            "src": "/apps/ruffle/index.html",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.ruffle"
+        }
+    },
+    {
+        "name": "Youtube",
+        "icon": "/assets/com.tb.youtube/icon.png",
+        "description": "The Youtube App for Terbium",
+        "wmArgs": {
+            "title": {
+                "text": "Youtube",
+                "weight": 600
+            },
+            "icon": "/assets/com.tb.youtube/icon.png",
+            "src": "https://youtube.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.youtube"
+        }
+    },
+    {
+        "name": "X",
+        "icon": "/assets/com.tb.x/icon.svg",
+        "description": "X formely Twitter",
+        "wmArgs": {
+            "title": {
+                "text": "X",
+                "weight": 600
+            },
+            "icon": "/assets/com.tb.x/icon.svg",
+            "src": "https://twitter.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.x"
+        }
+    },
+    {
+        "name": "Spotify",
+        "icon": "/assets/com.tb.spotify/icon.png",
+        "description": "Listen to Music on Terbium",
+        "wmArgs": {
+            "title": {
+                "text": "Spotify",
+                "weight": 600
+            },
+            "icon": "/assets/com.tb.spotify/icon.png",
+            "src": "https://open.spotify.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.spotify"
+        }
+    },
+    {
+        "name": "Discord",
+        "icon": "/assets/com.tb.discord/icon.svg",
+        "description": "Discord for TB",
+        "wmArgs": {
+            "title": {
+                "text": "Discord",
+                "weight": 600
+            },
+            "icon": "/assets/com.tb.discord/icon.svg",
+            "src": "https://discord.com/app",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": false,
+            "resizable": true,
+            "app_id": "com.tb.discord"
+        }
+    }
+]

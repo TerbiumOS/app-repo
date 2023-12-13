@@ -1,102 +1,118 @@
 [
-    {
-        "name": "Ruffle",
-        "icon": "/assets/com.tb.ruffle/icon.svg",
-        "description": "The Ruffle app for Terbium",
-        "wmArgs": {
-            "title": {
-                "text": "Ruffle",
-                "weight": 600
+            {
+                "name": "Ruffle",
+                "icon": "/assets/img/ruffle.svg",
+                "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
+                "authors": ["Ruffle Team"],
+                "wmArgs": {
+                    "title": {
+                        "text": "Ruffle",
+                        "weight": 600
+                    },
+                    "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.ruffle/ruffle.svg",
+                    "src": "/apps/ruffle/index.html",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": true,
+                    "resizable": true,
+                    "app_id": "com.tb.ruffle"
+                }      
             },
-            "icon": "/assets/com.tb.ruffle/icon.svg",
-            "src": "/apps/ruffle/index.html",
-            "size": {
-                "width": 600,
-                "height": 400
+            {
+                "name": "Youtube",
+                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.youtube/icon.png",
+                "description": "Share your videos with friends, family, and the world.",
+                "authors": ["Google"],
+                "images": [
+                    "https://i.imgur.com/7yx5z0B.png"
+                ],
+                "wmArgs": {
+                    "title": {
+                        "text": "Youtube",
+                        "weight": 600
+                    },
+                    "icon": "/assets/img/youtube.png",
+                    "src": "https://youtube.com",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": true,
+                    "resizable": true,
+                    "app_id": "com.tb.youtube"
+                }
             },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.ruffle"
-        }
-    },
-    {
-        "name": "Youtube",
-        "icon": "/assets/com.tb.youtube/icon.png",
-        "description": "The Youtube App for Terbium",
-        "wmArgs": {
-            "title": {
-                "text": "Youtube",
-                "weight": 600
+            {
+                "name": "X",
+                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.x/iconsvg",
+                "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+                "authors": ["Twitter"],
+                "wmArgs": {
+                    "title": {
+                        "text": "X",
+                        "weight": 600
+                    },
+                    "icon": "/assets/img/x.svg",
+                    "src": "https://twitter.com",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": true,
+                    "resizable": true,
+                    "app_id": "com.tb.x"
+                }
             },
-            "icon": "/assets/com.tb.youtube/icon.png",
-            "src": "https://youtube.com",
-            "size": {
-                "width": 600,
-                "height": 400
+            {
+                "name": "Spotify",
+                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.spotify/icon.png",
+                "description": "Spotify is a digital music service that gives you access to millions of songs.",
+                "authors": ["Spotify"],
+                "wmArgs": {
+                    "title": {
+                        "text": "Spotify",
+                        "weight": 600
+                    },
+                    "icon": "/assets/img/spotify.png",
+                    "src": "https://open.spotify.com",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": true,
+                    "resizable": true,
+                    "app_id": "com.tb.spotify"
+                }
             },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.youtube"
-        }
-    },
-    {
-        "name": "X",
-        "icon": "/assets/com.tb.x/icon.svg",
-        "description": "X formely Twitter",
-        "wmArgs": {
-            "title": {
-                "text": "X",
-                "weight": 600
-            },
-            "icon": "/assets/com.tb.x/icon.svg",
-            "src": "https://twitter.com",
-            "size": {
-                "width": 600,
-                "height": 400
-            },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.x"
-        }
-    },
-    {
-        "name": "Spotify",
-        "icon": "/assets/com.tb.spotify/icon.png",
-        "description": "Listen to Music on Terbium",
-        "wmArgs": {
-            "title": {
-                "text": "Spotify",
-                "weight": 600
-            },
-            "icon": "/assets/com.tb.spotify/icon.png",
-            "src": "https://open.spotify.com",
-            "size": {
-                "width": 600,
-                "height": 400
-            },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.spotify"
-        }
-    },
-    {
-        "name": "Discord",
-        "icon": "/assets/com.tb.discord/icon.svg",
-        "description": "Discord for TB",
-        "wmArgs": {
-            "title": {
-                "text": "Discord",
-                "weight": 600
-            },
-            "icon": "/assets/com.tb.discord/icon.svg",
-            "src": "https://discord.com/app",
-            "size": {
-                "width": 600,
-                "height": 400
-            },
-            "single": false,
-            "resizable": true,
-            "app_id": "com.tb.discord"
-        }
-    }
-]
+            {
+                "name": "Discord",
+                "icon": "https://github.com/TerbiumOS/app-repo/blob/main/assets/com.tb.discord/icon.svg",
+                "description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+                "authors": ["Discord"],
+                "images": [
+                    "https://i.imgur.com/eqwrju4.png",
+                    "https://i.imgur.com/JPVhdWQ.png",
+                    "https://i.imgur.com/cLw2qli.png",
+                    "https://i.imgur.com/aA7YATn.png",
+                    "https://i.imgur.com/RfUO4vF.png"
+                ],
+                "wmArgs": {
+                    "title": {
+                        "text": "Discord",
+                        "weight": 600
+                    },
+                    "icon": "/assets/img/discord.svg",
+                    "src": "https://discord.com/app",
+                    "size": {
+                        "width": 600,
+                        "height": 400
+                    },
+                    "single": false,
+                    "resizable": true,
+                    "app_id": "com.tb.discord"
+                }
+            }
+        ]
+

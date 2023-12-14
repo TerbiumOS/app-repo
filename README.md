@@ -8,21 +8,26 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
     - example
     ```json
     {
-        "name": "YouTube",
-        "icon": "/assets/com.tb.youtube/icon.png",
-        "description": "YouTube for Terbium",
+        "name": "Youtube",
+        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
+        "description": "Share your videos with friends, family, and the world.",
         "authors": ["Google"],
+        "pkg-name": "youtube",
+        "images": [
+            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/images/1.png"
+        ],
         "wmArgs": {
             "title": {
-                "text": "YouTube",
+                "text": "Youtube",
                 "weight": 600
             },
-            "icon": "/assets/com.tb.youtube/icon.png",
+            "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
+            "src": "https://youtube.com",
             "size": {
                 "width": 600,
                 "height": 400
             },
-            "single": false,
+            "single": true,
             "resizable": true,
             "app_id": "com.tb.youtube"
         }

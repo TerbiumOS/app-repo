@@ -1,7 +1,7 @@
 [
             {
                 "name": "Ruffle",
-                "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/cont.tb.discord/icon.svg",
+                "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.ruffle/icon.svg",
                 "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
                 "authors": ["Ruffle Team"],
                 "wmArgs": {

@@ -4,6 +4,7 @@
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.ruffle/icon.svg",
         "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
         "authors": ["Ruffle Team"],
+        "pkg-name": "ruffle-rs",
         "wmArgs": {
             "title": {
                 "text": "Ruffle",
@@ -25,6 +26,7 @@
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
         "description": "Share your videos with friends, family, and the world.",
         "authors": ["Google"],
+        "pkg-name": "youtube",
         "images": [
             "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/images/1.png"
         ],
@@ -49,6 +51,7 @@
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.x/icon.svg",
         "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
         "authors": ["Twitter"],
+        "pkg-name": "xapp",
         "wmArgs": {
             "title": {
                 "text": "X",
@@ -70,6 +73,7 @@
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.spotify/icon.png",
         "description": "Spotify is a digital music service that gives you access to millions of songs.",
         "authors": ["Spotify"],
+        "pkg-name": "spotify",
         "wmArgs": {
             "title": {
                 "text": "Spotify",
@@ -91,6 +95,7 @@
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/icon.svg",
         "description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
         "authors": ["Discord"],
+        "pkg-name": "discord",
         "images": [
             "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/1.png",
             "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/2.png",
@@ -119,6 +124,7 @@
         "icon": "/assets/img/ide.svg",
         "description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
         "authors": ["TerbiumOS Project"],
+        "pkg-name": "tb-ide",
         "wmArgs": {
             "title": {
                 "text": "Terbium IDE",
@@ -140,6 +146,7 @@
         "icon": "https://v2.sodium-5h8.pages.dev/assets/img/games.svg",
         "description": "Play various Games and More right in your browser!",
         "authors": ["XSTARS"],
+        "pkg-name": "tb-games",
         "wmArgs": {
             "title": {
                 "text": "Game Center",

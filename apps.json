@@ -121,7 +121,7 @@
     },
     {
         "name": "Terbium IDE",
-        "icon": "/assets/img/ide.svg",
+        "icon": "/apps/ide/icon.svg",
         "description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
         "authors": ["TerbiumOS Project"],
         "pkg-name": "tb-ide",
@@ -130,7 +130,7 @@
                 "text": "Terbium IDE",
                 "weight": 600
             },
-            "icon": "/assets/img/ide.svg",
+            "icon": "/apps/ide/icon.svg",
             "src": "/apps/ide/index.html",
             "size": {
                 "width": 600,

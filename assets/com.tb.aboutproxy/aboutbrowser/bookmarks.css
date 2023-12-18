@@ -1,0 +1,85 @@
+.bookmarksTableWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmarksTableWrapper #addBookmark {
+    width: 2em;
+    height: 2em;
+    margin-left: auto;
+    margin-right: 1.5em;
+    margin-top: 3em;
+}
+
+#bookmarksTable {
+    background-color: var(--aboutbrowser-ui-layer1-bg);
+    color: var(--aboutbrowser-ui-layer1-fg);
+    padding: 1em 0em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+#bookmarksTable .bookmarksRow {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+
+#bookmarksTable .bookmarksRow[data-active='true'] {
+    background-color: color-mix(in srgb, var(--aboutbrowser-ui-layer1-bg), var(--aboutbrowser-ui-accent) 50%);
+}
+
+#bookmarksTable .bookmarkTitle {
+    margin-right: 1em;
+}
+
+#bookmarksTable .bookmarkUrl,
+#bookmarksTable .bookmarkTitle {
+    background-color: transparent;
+    flex-grow: 1;
+    border: none;
+    color: var(--aboutbrowser-ui-layer1-fg);
+}
+
+#bookmarksTable .bookmarksIcon {
+    height: 1em;
+    padding: 2px;
+}
+#bookmarksTable .bookmarksIconDiv {
+    display: flex;
+    align-items: center;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+#bookmarksTable .themedBtn:hover {
+    background-color: color-mix(in srgb, var(--aboutbrowser-ui-layer1-bg), var(--aboutbrowser-ui-layer1-fg) 15%);
+}
+
+#bookmarksTable .themedBtn:active {
+    background-color: color-mix(in srgb, var(--aboutbrowser-ui-layer1-bg), var(--aboutbrowser-ui-layer1-fg) 25%);
+}
+
+
+.themedBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    margin: 2px;
+    transition: background-color .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+}
+
+.themedBtn:hover {
+    background-color: color-mix(in srgb, var(--aboutbrowser-ui-bg) var(--aboutbrowser-ui-fg) 15%);
+}
+
+.themedBtn:active  {
+    background-color: color-mix(in srgb, var(--aboutbrowser-ui-bg) var(--aboutbrowser-ui-fg) 25%);
+}

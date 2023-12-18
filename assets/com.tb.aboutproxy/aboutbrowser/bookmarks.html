@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bookmarks</title>
+    <link href="/roboto.css" rel="stylesheet" type="text/css" />
+    <link href="ui.css" rel="stylesheet" type="text/css" />
+    <link href="bookmarks.css" rel="stylesheet" type="text/css" />
+    <link href="/material-symbols-outlined.css" rel="stylesheet" />
+    <script src="/helpers.js"></script>
+    <script src="/browser-api-tab.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <div class="topBar">
+            <img class="icon" src="/aboutbrowser/darkfavi.png"></img>
+            <div class="title">Bookmarks</div>
+            <div class="searchContainer"><input class="search" placeholder="Don't search bookmarks"></input></div>
+        </div>
+        <div class="content">
+        <div class="sideBar">
+        </div>
+            <div class="actualContent">
+                <div class="bookmarksTableWrapper">
+                    <button id="addBookmark" class="themedBtn" onclick="createBookmark('Mercury Workshop', 'https://mercurywork.shop')"><span class="material-symbols-outlined">add</span></button>
+                    <div id="bookmarksTable"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/bookmarks.js"></script>
+    <script src="bookmarks.js"></script>
+</body>
+
+</html>
+

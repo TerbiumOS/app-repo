@@ -1,0 +1,64 @@
+
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-dividers::before,
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-dividers::after {
+  background: color-mix(in srgb, var(--aboutbrowser-frame-bg), var(--aboutbrowser-active-tab-fg) 75%);
+}
+.chrome-tabs.chrome-tabs-dark-theme {
+  background: var(--aboutbrowser-frame-bg);
+}
+[data-aboutbrowser-theme-use-image-for-frame=""] .chrome-tabs.chrome-tabs-dark-theme {
+  background: var(--aboutbrowser-image-frame-bg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-background > svg .chrome-tab-geometry {
+  fill: var(--aboutbrowser-inactive-tab-bg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab[active] {
+  z-index: 11;
+}
+[data-aboutbrowser-theme-need-tab-contrast=""] .chrome-tabs.chrome-tabs-dark-theme .chrome-tab[active] .chrome-tab-background > svg .chrome-tab-geometry {
+  stroke-width: 1px;
+  stroke: color-mix(in srgb, var(--aboutbrowser-frame-bg), var(--aboutbrowser-active-tab-fg) 50%)
+}
+[data-aboutbrowser-theme-need-tab-contrast=""] .chrome-tabs.chrome-tabs-dark-theme .chrome-tabs-bottom-bar {
+  border-top: 1px solid color-mix(in srgb, var(--aboutbrowser-frame-bg), var(--aboutbrowser-active-tab-fg) 50%);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tabs-bottom-bar {
+  background: var(--aboutbrowser-toolbar-bg);
+  height: 5px;
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tabs-second-bottom-bar {
+  height: 4px;
+  border: none !important; 
+  z-index: 12;
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab[active] .chrome-tab-background > svg .chrome-tab-geometry {
+  fill: var(--aboutbrowser-toolbar-bg); /* chrome themes use the toolbar bg as the active tab bg */
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-title {
+  color: var(--aboutbrowser-inactive-tab-fg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab[active] .chrome-tab-title {
+  color: var(--aboutbrowser-active-tab-fg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-close {
+  stroke: var(--aboutbrowser-inactive-tab-fg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab[active] .chrome-tab-close {
+  stroke: var(--aboutbrowser-active-tab-fg);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-close:hover {
+  background-color: color-mix(in srgb, var(--aboutbrowser-toolbar-bg), var(--aboutbrowser-active-tab-fg) 25%);
+}
+.chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-close:active {
+  background-color: color-mix(in srgb, var(--aboutbrowser-toolbar-bg), var(--aboutbrowser-active-tab-fg) 50%);
+}
+.chrome-tabs .chrome-tabs-content-wrapper .chrome-tabs-btn {
+  color: var(--aboutbrowser-inactive-tab-fg);
+  background-color: var(--aboutbrowser-inactive-tab-bg);
+}
+.chrome-tabs .chrome-tabs-content-wrapper .chrome-tabs-btn:hover {
+  background-color: color-mix(in srgb, var(--aboutbrowser-inactive-tab-bg), var(--aboutbrowser-inactive-tab-fg) 25%);
+}
+.chrome-tabs .chrome-tabs-content-wrapper .chrome-tabs-btn:active {
+  background-color: color-mix(in srgb, var(--aboutbrowser-inactive-tab-bg), var(--aboutbrowser-inactive-tab-fg) 50%);
+}

@@ -8,7 +8,7 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
     - example
     ```json
     {
-        "name": "Youtube",
+        "name": "YouTube",
         "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
         "description": "Share your videos with friends, family, and the world.",
         "authors": ["Google"],
@@ -18,7 +18,7 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
         ],
         "wmArgs": {
             "title": {
-                "text": "Youtube",
+                "text": "YouTube",
                 "weight": 600
             },
             "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",

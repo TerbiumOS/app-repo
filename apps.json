@@ -1,7 +1,7 @@
 [
     {
         "name": "Ruffle",
-        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.ruffle/icon.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
         "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
         "authors": ["Ruffle Team"],
         "pkg-name": "ruffle-rs",
@@ -10,7 +10,7 @@
                 "text": "Ruffle",
                 "weight": 600
             },
-            "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.ruffle/icon.svg",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
             "src": "/apps/ruffle/index.html",
             "size": {
                 "width": 600,
@@ -23,19 +23,19 @@
     },
     {
         "name": "Youtube",
-        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",
         "description": "Share your videos with friends, family, and the world.",
         "authors": ["Google"],
         "pkg-name": "youtube",
         "images": [
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/images/1.png"
+            "https://tbapps.pages.dev/assets/com.tb.youtube/images/1.png"
         ],
         "wmArgs": {
             "title": {
                 "text": "Youtube",
                 "weight": 600
             },
-            "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/icon.png",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",
             "src": "https://youtube.com",
             "size": {
                 "width": 600,
@@ -48,7 +48,7 @@
     },
     {
         "name": "X",
-        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.x/icon.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.x/icon.svg",
         "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
         "authors": ["Twitter"],
         "pkg-name": "xapp",
@@ -57,7 +57,7 @@
                 "text": "X",
                 "weight": 600
             },
-            "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.x/icon.svg",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.x/icon.svg",
             "src": "https://twitter.com",
             "size": {
                 "width": 600,
@@ -70,7 +70,7 @@
     },
     {
         "name": "Spotify",
-        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.spotify/icon.png",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.spotify/icon.png",
         "description": "Spotify is a digital music service that gives you access to millions of songs.",
         "authors": ["Spotify"],
         "pkg-name": "spotify",
@@ -79,7 +79,7 @@
                 "text": "Spotify",
                 "weight": 600
             },
-            "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.spotify/icon.png",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.spotify/icon.png",
             "src": "https://open.spotify.com",
             "size": {
                 "width": 600,
@@ -92,16 +92,16 @@
     },
     {
         "name": "Discord",
-        "icon": "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/icon.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.discord/icon.svg",
         "description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
         "authors": ["Discord"],
         "pkg-name": "discord",
         "images": [
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/1.png",
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/2.png",
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/3.png",
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/4.png",
-            "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.discord/images/5.png"
+            "https://tbapps.pages.dev/assets/com.tb.discord/images/1.png",
+            "https://tbapps.pages.dev/assets/com.tb.discord/images/2.png",
+            "https://tbapps.pages.dev/assets/com.tb.discord/images/3.png",
+            "https://tbapps.pages.dev/assets/com.tb.discord/images/4.png",
+            "https://tbapps.pages.dev/assets/com.tb.discord/images/5.png"
         ],
         "wmArgs": {
             "title": {
@@ -143,7 +143,7 @@
     },
     {
         "name": "Game Center",
-        "icon": "https://v2.sodium-5h8.pages.dev/assets/img/games.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.games/icon.svg",
         "description": "Play various Games and More right in your browser!",
         "authors": ["XSTARS"],
         "pkg-name": "tb-games",
@@ -152,7 +152,7 @@
                 "text": "Game Center",
                 "weight": 600
             },
-            "icon": "https://v2.sodium-5h8.pages.dev/assets/img/games.svg",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.games/icon.svg",
             "src": "https://notplayingallday383.github.io/app-test/gamecntr/index.html",
             "size": {
                 "width": 800,
@@ -165,7 +165,7 @@
     },
     {
         "name": "About Proxy",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/material-public.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.svg",
         "description": "Chrome for your browser",
         "authors": ["r58playz"],
         "pkg-name": "aboutproxy",
@@ -174,7 +174,7 @@
                 "text": "About Proxy",
                 "weight": 600
             },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/material-public.svg",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.svg",
             "src": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/browser.html",
             "size": {
                 "width": 800,

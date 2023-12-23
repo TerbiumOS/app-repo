@@ -22,7 +22,7 @@
         }      
     },
     {
-        "name": "Youtube",
+        "name": "YouTube",
         "icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",
         "description": "Share your videos with friends, family, and the world.",
         "authors": ["Google"],
@@ -32,7 +32,7 @@
         ],
         "wmArgs": {
             "title": {
-                "text": "Youtube",
+                "text": "YouTube",
                 "weight": 600
             },
             "icon": "https://tbapps.pages.dev/assets/com.tb.youtube/icon.png",

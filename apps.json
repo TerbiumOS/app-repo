@@ -184,6 +184,71 @@
             "resizable": true,
             "app_id": "com.tb.aboutproxy"
         }
+    },
+    {
+        "name": "Reddit",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/icon.png",
+        "description": "The official Reddit client for browsing Reddit on Terbium.",
+        "authors": ["Reddit Inc"],
+        "pkg-name": "reddit",
+        "wmArgs": {
+            "title": {
+                "text": "Reddit",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/icon.png",
+            "src": "https://tbapps.pages.dev/assets/com.tb.reddit/browser.html",
+            "size": {
+                "width": 800,
+                "height": 650
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.reddit"
+        }
+    },
+    {
+        "name": "Snapchat",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/icon.png",
+        "description": "Snapchat is a fast and fun way to share the moment with your friends and family.",
+        "authors": ["Snap Inc"],
+        "pkg-name": "snapchat",
+        "wmArgs": {
+            "title": {
+                "text": "Snapchat",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/icon.png",
+            "src": "https://tbapps.pages.dev/assets/com.tb.snapchat/browser.html",
+            "size": {
+                "width": 800,
+                "height": 650
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.snapchat"
+        }
+    },
+    {
+        "name": "TikTok",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/icon.png",
+        "description": "TikTok is THE destination for mobile videos. On TikTok, short-form videos are exciting, spontaneous, and genuine.",
+        "authors": ["TikTok PTD"],
+        "pkg-name": "tiktok",
+        "wmArgs": {
+            "title": {
+                "text": "TikTok",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/icon.png",
+            "src": "https://tbapps.pages.dev/assets/com.tb.tiktok/browser.html",
+            "size": {
+                "width": 800,
+                "height": 650
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.tiktok"
+        }
     }
 ]
-

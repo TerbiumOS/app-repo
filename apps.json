@@ -11,7 +11,7 @@
                 "weight": 600
             },
             "icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
-            "src": "/apps/ruffle/index.html",
+            "src": "https://tbapps.pages.dev/assets/com.tb.ruffle/index.html",
             "size": {
                 "width": 600,
                 "height": 400
@@ -187,17 +187,22 @@
     },
     {
         "name": "Reddit",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/icon.png",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/logo.png",
         "description": "The official Reddit client for browsing Reddit on Terbium.",
         "authors": ["Reddit Inc"],
         "pkg-name": "reddit",
+        "images": [
+            "https://tbapps.pages.dev/assets/com.tb.reddit/1.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.reddit/2.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.reddit/3.jpg"
+        ],
         "wmArgs": {
             "title": {
                 "text": "Reddit",
                 "weight": 600
             },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/icon.png",
-            "src": "https://tbapps.pages.dev/assets/com.tb.reddit/browser.html",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/logo.png",
+            "src": "https://reddit.com",
             "size": {
                 "width": 800,
                 "height": 650
@@ -209,17 +214,22 @@
     },
     {
         "name": "Snapchat",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/icon.png",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/logo.png",
         "description": "Snapchat is a fast and fun way to share the moment with your friends and family.",
         "authors": ["Snap Inc"],
         "pkg-name": "snapchat",
+        "images": [
+            "https://tbapps.pages.dev/assets/com.tb.snapchat/1.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.snapchat/2.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.snapchat/3.jpg"
+        ],
         "wmArgs": {
             "title": {
                 "text": "Snapchat",
                 "weight": 600
             },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/icon.png",
-            "src": "https://tbapps.pages.dev/assets/com.tb.snapchat/browser.html",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/logo.png",
+            "src": "https://web.snapchat.com",
             "size": {
                 "width": 800,
                 "height": 650
@@ -231,17 +241,22 @@
     },
     {
         "name": "TikTok",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/icon.png",
-        "description": "TikTok is THE destination for mobile videos. On TikTok, short-form videos are exciting, spontaneous, and genuine.",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
+        "description": "TikTok is THE destination for short videos",
         "authors": ["TikTok PTD"],
         "pkg-name": "tiktok",
+        "images": [
+            "https://tbapps.pages.dev/assets/com.tb.tiktok/1.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.tiktok/2.jpg",
+            "https://tbapps.pages.dev/assets/com.tb.tiktok/3.jpg"
+        ],
         "wmArgs": {
             "title": {
                 "text": "TikTok",
                 "weight": 600
             },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/icon.png",
-            "src": "https://tbapps.pages.dev/assets/com.tb.tiktok/browser.html",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
+            "src": "https://tiktok.com",
             "size": {
                 "width": 800,
                 "height": 650

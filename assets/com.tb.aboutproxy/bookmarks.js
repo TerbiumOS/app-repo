@@ -4,7 +4,7 @@ class Bookmarks {
         this.bookmarkTemplate = '<button class="bookmark"><img class="bookmarkIcon"></img></button>'
     }
 
-    add(title = 'A', url = "https://google.com", favicon = "/aboutbrowser/darkfavi.png") {
+    add(title = 'A', url = "https://google.com", favicon = "https://tbapps.pages.dev/assets/com.tb.aboutproxy/darkfavi.png") {
         var node = htmlToElement(this.bookmarkTemplate);
         node.onclick = this.bookmarkHandler;
         node.setAttribute("data-url", url)

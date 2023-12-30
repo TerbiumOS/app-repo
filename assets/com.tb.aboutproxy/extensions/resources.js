@@ -23,7 +23,7 @@ class ExtensionResources {
   }
 
   setUpSw() {
-    //return window.navigator.serviceWorker.register("/nohost-sw.js?route=extension&fsName=aboutproxy-extensions");
+    return window.navigator.serviceWorker.register("/assets/com.tb.aboutproxy/nohost-sw.js?route=extension&fsName=aboutproxy-extensions", {scope: "/assets/com.tb.aboutproxy/"});
   }
 }
 

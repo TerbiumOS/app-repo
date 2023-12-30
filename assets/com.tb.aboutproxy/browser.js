@@ -9,7 +9,7 @@ class AboutBrowser {
 
         this.plugins = plugins;
         this.resourcesProtocol = "aboutbrowser://"
-        this.resourcesPrefix = window.location.origin + "/aboutbrowser/";
+        this.resourcesPrefix = "https://tbapps.pages.dev/assets/com.tb.aboutproxy/";
         this.titleSuffix = ` - ${this.branding.name}`;
         this.browserTitle = "New Tab" + this.titleSuffix;
         document.title = this.browserTitle;
@@ -99,7 +99,7 @@ class AboutBrowser {
         this.extensions = new ExtensionsController(this);
         await this.extensions.setup();
 
-        Extension.chromeApis = await fetch("/extensions/injector/apis.js").then(r=>r.text());
+        Extension.chromeApis = await fetch("https://tbapps.pages.dev/assets/com.tb.aboutproxy/extensions/injector/apis.js").then(r=>r.text());
 
         this.reapplyTheme();
 

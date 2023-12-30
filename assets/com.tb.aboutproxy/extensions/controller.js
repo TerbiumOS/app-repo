@@ -25,7 +25,7 @@ class ExtensionsController {
       await ((new this.resources.regularFs.Shell()).promises).rm(`/${this.internalThemeId}`, {recursive:true})
     }
     if(!installedExtensions.includes(this.internalThemeId)) {
-      await this.installFromUnpackedZipBlob(await fetch("/themes/chrome_dark.zip").then(r=>r.blob()), "aboutproxy-bad-theme");
+      await this.installFromUnpackedZipBlob(await fetch("https://tbapps.pages.dev/assets/com.tb.aboutproxy/themes/chrome_dark.zip").then(r=>r.blob()), "aboutproxy-bad-theme");
       this.setExtensionEnabled(this.internalThemeId, true);
     }
 

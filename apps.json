@@ -120,25 +120,25 @@
         }
     },
     {
-        "name": "Terbium IDE",
-        "icon": "/apps/ide/icon.svg",
+        "name": "VS Code",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.jpg",
         "description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
         "authors": ["TerbiumOS Project"],
-        "pkg-name": "tb-ide",
+        "pkg-name": "code",
         "wmArgs": {
             "title": {
-                "text": "Terbium IDE",
+                "text": "VS Code",
                 "weight": 600
             },
-            "icon": "/apps/ide/icon.svg",
-            "src": "/apps/ide/index.html",
+            "icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.jpg",
+            "src": "https://vscode.dev",
             "size": {
                 "width": 600,
                 "height": 400
             },
             "single": false,
             "resizable": true,
-            "app_id": "com.tb.ide"
+            "app_id": "com.tb.vscode"
         }
     },
     {

@@ -213,33 +213,6 @@
         }
     },
     {
-        "name": "Snapchat",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/logo.png",
-        "description": "Snapchat is a fast and fun way to share the moment with your friends and family.",
-        "authors": ["Snap Inc"],
-        "pkg-name": "snapchat",
-        "images": [
-            "https://tbapps.pages.dev/assets/com.tb.snapchat/1.jpg",
-            "https://tbapps.pages.dev/assets/com.tb.snapchat/2.jpg",
-            "https://tbapps.pages.dev/assets/com.tb.snapchat/3.jpg"
-        ],
-        "wmArgs": {
-            "title": {
-                "text": "Snapchat",
-                "weight": 600
-            },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.snapchat/logo.png",
-            "src": "https://web.snapchat.com",
-            "size": {
-                "width": 800,
-                "height": 650
-            },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.snapchat"
-        }
-    },
-    {
         "name": "TikTok",
         "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
         "description": "TikTok is THE destination for short videos",

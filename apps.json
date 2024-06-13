@@ -169,21 +169,7 @@
         "description": "Chrome for your browser",
         "authors": ["r58playz"],
         "pkg-name": "aboutproxy",
-        "wmArgs": {
-            "title": {
-                "text": "About Proxy",
-                "weight": 600
-            },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.svg",
-            "src": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/browser.html",
-            "size": {
-                "width": 800,
-                "height": 650
-            },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.aboutproxy"
-        }
+        "pkg-download": "https://tbapps.pages.dev/assets/aboutproxy.TAPP"
     },
     {
         "name": "Reddit",

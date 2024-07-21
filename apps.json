@@ -232,5 +232,13 @@
         "authors": ["Almond Lan"],
         "pkg-name": "legacy-almond",
         "pkg-download": "https://tbapps.pages.dev/assets/almond.TAPP"
+    },
+    {
+        "name": "glxgears",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.glxgears/glxgears.png",
+        "description": "The classic every webOS needs",
+        "authors": ["glxgears"],
+        "pkg-name": "glxgears",
+        "pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP"
     }
 ]

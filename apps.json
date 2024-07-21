@@ -121,9 +121,9 @@
     },
     {
         "name": "Visual Studio Code",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.jpg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.vscode/code.png",
         "description": "Edit Code Files, Save Them and Commit them just like VIM or vscode!",
-        "authors": ["TerbiumOS Project"],
+        "authors": ["Microsoft"],
         "pkg-name": "code",
         "wmArgs": {
             "title": {

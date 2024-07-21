@@ -229,6 +229,7 @@
         "name": "legacy-almond",
         "icon": "https://avatars.githubusercontent.com/u/109819274?s=200&v=4",
         "description": "The old terbium video player",
+        "version": "0.1.0",
         "authors": ["Almond Lan"],
         "pkg-name": "legacy-almond",
         "pkg-download": "https://tbapps.pages.dev/assets/almond.TAPP"

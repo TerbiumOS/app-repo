@@ -238,6 +238,7 @@
         "name": "glxgears",
         "icon": "https://tbapps.pages.dev/assets/com.tb.glxgears/glxgears.png",
         "description": "The classic every webOS needs",
+        "version": "1.0.0",
         "authors": ["glxgears"],
         "pkg-name": "glxgears",
         "pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP"

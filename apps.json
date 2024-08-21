@@ -242,5 +242,23 @@
         "authors": ["glxgears"],
         "pkg-name": "glxgears",
         "pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP"
+    },
+    {
+        "name": "GitGui",
+        "icon": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/git.svg",
+        "description": "The stable build of GitGui",
+        "version": "1.0.0",
+        "authors": ["XSTARS"],
+        "pkg-name": "gitgui",
+        "pkg-download": "https://tbapps.pages.dev/assets/gitgui.TAPP"
+    },
+    {
+        "name": "xShot",
+        "icon": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xshot.svg",
+        "description": "A simple screenshoting utility for Terbium",
+        "version": "1.0-stable",
+        "authors": ["XSTARS"],
+        "pkg-name": "xshot",
+        "pkg-download": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xShot.TAPP"
     }
 ]

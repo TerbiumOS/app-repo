@@ -58,3 +58,18 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
     },
   ```
 
+## Formatting Anura Apps
+
+- Terbium app store repos also support having Anura Apps however they must be formatted like so:
+- You can store the app in the assets folder as a regular zip file
+  - Example
+  ```json
+    {
+        "name": "Snae Player",
+        "icon": "https://raw.githubusercontent.com/MercuryWorkshop/anura-repo/master/apps/anura.music/icon.png",
+        "description": "A music client ported to Anura",
+        "authors": ["Mercury Workshop"],
+        "pkg-name": "snaeplayer",
+        "anura-pkg": "https://raw.githubusercontent.com/MercuryWorkshop/anura-repo/master/apps/anura.music/app.zip"
+    }
+  ```

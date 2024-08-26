@@ -60,7 +60,7 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
 
 ## Formatting Anura Apps
 
-- Terbium app store repos also support having Anura Apps however they must be formatted like so:
+- Terbium app repos also support having Anura Apps however they must be formatted like so:
 - You can store the app in the assets folder as a regular zip file
   - Example
   ```json

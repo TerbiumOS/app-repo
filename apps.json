@@ -210,7 +210,7 @@
                 "weight": 600
             },
             "icon": "https://tbapps.pages.dev/assets/com.tb.ytm/icon.png",
-            "src": "https://youtube.com",
+            "src": "https://music.youtube.com",
             "size": {
                 "width": 600,
                 "height": 400

@@ -199,6 +199,28 @@
         }
     },
     {
+        "name": "YouTube Music",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.ytm/icon.png",
+        "description": "A new Music service with official albums, singles, videos, remixes, live performances and more for Android, iOS and desktop. It's all here.",
+        "authors": ["Google"],
+        "pkg-name": "youtube-music",
+        "wmArgs": {
+            "title": {
+                "text": "YouTube Music",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/com.tb.ytm/icon.png",
+            "src": "https://youtube.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "app_id": "com.tb.ytm"
+        }
+    },
+    {
         "name": "TikTok",
         "icon": "https://tbapps.pages.dev/assets/com.tb.tiktok/logo.png",
         "description": "TikTok is THE destination for short videos",

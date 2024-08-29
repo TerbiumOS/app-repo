@@ -47,7 +47,7 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
   ```json
     {
         "name": "About Proxy",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.svg",
+        "icon": "https://aboutproxy.pages.dev/aboutbrowser/darkfavi.png",
         "description": "Chrome for your browser",
         "images": [
             "https://raw.githubusercontent.com/TerbiumOS/app-repo/main/assets/com.tb.youtube/images/1.png"

@@ -4,22 +4,21 @@
         "icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
         "description": "Ruffle is a Flash Player emulator built in the Rust programming language.",
         "authors": ["Ruffle Team"],
-        "pkg-name": "ruffle-rs",
+        "pkg-name": "Ruffle",
         "wmArgs": {
             "title": {
                 "text": "Ruffle",
                 "weight": 600
             },
             "icon": "https://tbapps.pages.dev/assets/com.tb.ruffle/icon.svg",
-            "src": "https://tbapps.pages.dev/assets/com.tb.ruffle/index.html",
+            "src": "https://ruffle.rs/demo",
             "size": {
                 "width": 600,
                 "height": 400
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.ruffle"
-        }      
+            "resizable": true
+        }
     },
     {
         "name": "YouTube",
@@ -42,8 +41,7 @@
                 "height": 400
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.youtube"
+            "resizable": true
         }
     },
     {
@@ -64,8 +62,7 @@
                 "height": 400
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.x"
+            "resizable": true
         }
     },
     {
@@ -86,8 +83,7 @@
                 "height": 400
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.spotify"
+            "resizable": true
         }
     },
     {
@@ -115,8 +111,7 @@
                 "height": 400
             },
             "single": false,
-            "resizable": true,
-            "app_id": "com.tb.discord"
+            "resizable": true
         }
     },
     {
@@ -137,30 +132,7 @@
                 "height": 400
             },
             "single": false,
-            "resizable": true,
-            "app_id": "com.tb.vscode"
-        }
-    },
-    {
-        "name": "Game Center",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.games/icon.svg",
-        "description": "Play various Games and More right in your browser!",
-        "authors": ["XSTARS"],
-        "pkg-name": "tb-games",
-        "wmArgs": {
-            "title": {
-                "text": "Game Center",
-                "weight": 600
-            },
-            "icon": "https://tbapps.pages.dev/assets/com.tb.games/icon.svg",
-            "src": "https://notplayingallday383.github.io/app-test/gamecntr/index.html",
-            "size": {
-                "width": 800,
-                "height": 650
-            },
-            "single": true,
-            "resizable": true,
-            "app_id": "com.tb.games"
+            "resizable": true
         }
     },
     {
@@ -194,8 +166,7 @@
                 "height": 650
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.reddit"
+            "resizable": true
         }
     },
     {
@@ -216,8 +187,7 @@
                 "height": 400
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.ytm"
+            "resizable": true
         }
     },
     {
@@ -243,8 +213,7 @@
                 "height": 650
             },
             "single": true,
-            "resizable": true,
-            "app_id": "com.tb.tiktok"
+            "resizable": true
         }
     },
     {
@@ -282,5 +251,68 @@
         "authors": ["XSTARS"],
         "pkg-name": "xshot",
         "pkg-download": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xShot.TAPP"
+    },
+    {
+        "name": "Apple Music",
+        "icon": "https://tbapps.pages.dev/assets/applemusic.png",
+        "description": "Get unlimited access to 100 million songs, thousands of curated playlists, and original content from the artists you know and love – all ad-free. Hear sound all around you with Spatial Audio featuring Dolby Atmos.",
+        "authors": ["Apple Inc"],
+        "pkg-name": "apple-music",
+        "wmArgs": {
+            "title": {
+                "text": "Apple Music",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/applemusic.png",
+            "src": "https://music.apple.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
+    },
+    {
+        "name": "Roblox",
+        "icon": "https://tbapps.pages.dev/assets/roblox.ico",
+        "description": "Roblox:tm: Powered by NowGG",
+        "authors": ["NowGG"],
+        "pkg-name": "roblox",
+        "wmArgs": {
+            "title": {
+                "text": "Roblox",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/roblox.ico",
+            "src": "https://now.gg/apps/a/19900/b.html",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
+    },
+    {
+        "name": "Snapchat",
+        "icon": "https://tbapps.pages.dev/assets/snap.ico",
+        "description": "(SCRAMJET ONLY) Chat, send Snaps, explore Stories, and try Lenses on desktop, or download the app on mobile! ",
+        "authors": ["Snapchat"],
+        "pkg-name": "snapchat",
+        "wmArgs": {
+            "title": {
+                "text": "Snapchat",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/snap.ico",
+            "src": "https://snapchat.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
     }
 ]

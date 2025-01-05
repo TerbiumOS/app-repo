@@ -33,7 +33,6 @@ Pull Requests for apps are always viewed and heres some basic guidelines for you
             },
             "single": true,
             "resizable": true,
-            "app_id": "com.tb.youtube"
         }
     }
     ```

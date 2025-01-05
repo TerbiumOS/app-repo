@@ -137,7 +137,7 @@
     },
     {
         "name": "About Proxy",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.svg",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.png",
         "description": "Chrome for your browser",
         "authors": ["r58playz"],
         "pkg-name": "aboutproxy",

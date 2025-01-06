@@ -137,7 +137,7 @@
     },
     {
         "name": "About Proxy",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/icon.png",
+        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/logo.png",
         "description": "Chrome for your browser",
         "authors": ["r58playz"],
         "pkg-name": "aboutproxy",
@@ -307,6 +307,69 @@
             },
             "icon": "https://tbapps.pages.dev/assets/snap.ico",
             "src": "https://snapchat.com",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
+    },
+    {
+        "name": "Celeste Wasm",
+        "icon": "https://tbapps.pages.dev/assets/celeste.ico",
+        "description": "Celeste (2018) ported to wasm",
+        "authors": ["r58playz"],
+        "pkg-name": "celeste-wasm",
+        "wmArgs": {
+            "title": {
+                "text": "Celeste Wasm",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/celeste.ico",
+            "src": "https://celeste.r58playz.dev",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
+    },
+    {
+        "name": "EaglerCraft (1.8)",
+        "icon": "https://tbapps.pages.dev/assets/eagler.png",
+        "description": "EarlerCraft (1.8.8)",
+        "authors": ["lax1dude"],
+        "pkg-name": "eagler-1.8",
+        "wmArgs": {
+            "title": {
+                "text": "EaglerCraft 1.8",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/eagler.png",
+            "src": "https://eaglercraft.com/mc/1.8.8-wasm/",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true
+        }
+    },
+    {
+        "name": "EaglerCraft (1.5)",
+        "icon": "https://tbapps.pages.dev/assets/eagler.png",
+        "description": "EaglerCraft (1.5.2)",
+        "authors": ["lax1dude"],
+        "pkg-name": "celeste-wasm",
+        "wmArgs": {
+            "title": {
+                "text": "Celeste Wasm",
+                "weight": 600
+            },
+            "icon": "https://tbapps.pages.dev/assets/eagler.png",
+            "src": "https://eaglercraft.com/mc/1.5.2/",
             "size": {
                 "width": 600,
                 "height": 400

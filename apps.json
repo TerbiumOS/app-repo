@@ -141,7 +141,7 @@
         "description": "Chrome for your browser",
         "authors": ["r58playz"],
         "pkg-name": "aboutproxy",
-        "pkg-download": "https://tbapps.pages.dev/assets/aboutproxy.TAPP"
+        "pkg-download": "https://tbapps.pages.dev/assets/aboutproxy.TAPP.zip"
     },
     {
         "name": "Reddit",
@@ -223,7 +223,7 @@
         "version": "0.1.0",
         "authors": ["Almond Lan"],
         "pkg-name": "legacy-almond",
-        "pkg-download": "https://tbapps.pages.dev/assets/almond.TAPP"
+        "pkg-download": "https://tbapps.pages.dev/assets/almond.TAPP.zip"
     },
     {
         "name": "glxgears",
@@ -232,7 +232,7 @@
         "version": "1.0.0",
         "authors": ["glxgears"],
         "pkg-name": "glxgears",
-        "pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP"
+        "pkg-download": "https://tbapps.pages.dev/assets/glxgears.TAPP.zip"
     },
     {
         "name": "GitGui",
@@ -241,7 +241,7 @@
         "version": "1.0.0",
         "authors": ["XSTARS"],
         "pkg-name": "gitgui",
-        "pkg-download": "https://tbapps.pages.dev/assets/gitgui.TAPP"
+        "pkg-download": "https://tbapps.pages.dev/assets/gitgui.TAPP.zip"
     },
     {
         "name": "xShot",
@@ -250,7 +250,7 @@
         "version": "1.0-stable",
         "authors": ["XSTARS"],
         "pkg-name": "xshot",
-        "pkg-download": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xShot.TAPP"
+        "pkg-download": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/xShot.TAPP.zip"
     },
     {
         "name": "Apple Music",

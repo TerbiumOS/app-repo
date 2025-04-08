@@ -238,7 +238,7 @@
         "name": "GitGui",
         "icon": "https://github.com/Notplayingallday383/app-repo/raw/main/assets/git.svg",
         "description": "The stable build of GitGui",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "authors": ["XSTARS"],
         "pkg-name": "gitgui",
         "pkg-download": "https://tbapps.pages.dev/assets/gitgui.TAPP.zip"

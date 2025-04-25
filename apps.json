@@ -136,14 +136,6 @@
         }
     },
     {
-        "name": "About Proxy",
-        "icon": "https://tbapps.pages.dev/assets/com.tb.aboutproxy/logo.png",
-        "description": "Chrome for your browser",
-        "authors": ["r58playz"],
-        "pkg-name": "aboutproxy",
-        "pkg-download": "https://tbapps.pages.dev/assets/aboutproxy.TAPP.zip"
-    },
-    {
         "name": "Reddit",
         "icon": "https://tbapps.pages.dev/assets/com.tb.reddit/logo.png",
         "description": "The official Reddit client for browsing Reddit on Terbium.",

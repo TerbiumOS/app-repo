@@ -369,5 +369,14 @@
             "single": true,
             "resizable": true
         }
+    },
+    {
+        "name": "Hackclub Ai",
+        "icon": "https://tbapps.pages.dev/assets/hc-ai.png",
+        "description": "A simple interface for interacting with the Hackclub Ai instance",
+        "version": "1.0-stable",
+        "authors": ["HackClub"],
+        "pkg-name": "hc-ai",
+        "pkg-download": "https://tbapps.pages.dev/assets/hc-ai.TAPP.zip"
     }
 ]

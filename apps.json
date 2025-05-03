@@ -305,27 +305,6 @@
         }
     },
     {
-        "name": "Celeste Wasm",
-        "icon": "https://tbapps.pages.dev/assets/celeste.ico",
-        "description": "Celeste (2018) ported to wasm",
-        "authors": ["r58playz"],
-        "pkg-name": "celeste-wasm",
-        "wmArgs": {
-            "title": {
-                "text": "Celeste Wasm",
-                "weight": 600
-            },
-            "icon": "https://tbapps.pages.dev/assets/celeste.ico",
-            "src": "https://celeste.r58playz.dev",
-            "size": {
-                "width": 600,
-                "height": 400
-            },
-            "single": true,
-            "resizable": true
-        }
-    },
-    {
         "name": "EaglerCraft (1.8)",
         "icon": "https://tbapps.pages.dev/assets/eagler.png",
         "description": "EarlerCraft (1.8.8)",

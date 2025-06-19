@@ -359,5 +359,24 @@
             "resizable": true,
             "proxy": true
         }
+    },
+    {
+        "name": "Jellyfin",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
+        "description": "All of your media, in one convenient place.",
+        "authors": ["Jellyfin"],
+        "pkg-name": "Jellyfin",
+        "wmArgs": {
+            "title": "Jellyfin",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
+            "src": "https://jelly.ccsd.life/",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "proxy": true
+        }
     }
 ]

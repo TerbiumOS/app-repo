@@ -316,6 +316,25 @@
             "proxy": true
         }
     },
+        {
+        "name": "Minecraft",
+        "icon": "https://filebin.net/5m3ebjadk9mtwl5w/minecraft-icon-11.ico",
+        "description": "Play the hit video game, now on Terbium! ",
+        "authors": ["Mojang, IRV77, Lax1dude"],
+        "pkg-name": "minecraft",
+        "wmArgs": {
+            "title": "Minecraft",
+            "icon": "https://filebin.net/5m3ebjadk9mtwl5w/minecraft-icon-11.ico",
+            "src": "https://playboicartihairmodels.vercel.app/",
+            "size": {
+                "width": 600,
+                "height": 400
+            },
+            "single": true,
+            "resizable": true,
+            "proxy": true
+        }
+    },
     {
         "name": "Jellyfin",
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9hELYbRA5IB6-ci3AzpkvOTJ3BAq6-_LmMg&s",
